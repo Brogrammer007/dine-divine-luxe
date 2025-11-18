@@ -1,0 +1,147 @@
+import { MenuItem } from "@/types/menu";
+
+export const menuItems: MenuItem[] = [
+  // Starters
+  {
+    id: "1",
+    name: "Foie Gras Terrine",
+    description: "Duck foie gras with fig compote and brioche toast",
+    price: 28,
+    category: "starters",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "2",
+    name: "Oysters Rockefeller",
+    description: "Fresh oysters with spinach, herbs, and hollandaise",
+    price: 24,
+    category: "starters",
+    image: "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "3",
+    name: "Lobster Bisque",
+    description: "Creamy lobster soup with cognac and herbs",
+    price: 22,
+    category: "starters",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "4",
+    name: "Burrata Caprese",
+    description: "Fresh burrata, heirloom tomatoes, basil, balsamic",
+    price: 19,
+    category: "starters",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=600&q=80",
+  },
+
+  // Mains
+  {
+    id: "5",
+    name: "Beef Wellington",
+    description: "Prime beef tenderloin in puff pastry with truffle jus",
+    price: 68,
+    category: "mains",
+    image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "6",
+    name: "Pan-Seared Sea Bass",
+    description: "Mediterranean sea bass with lemon butter and vegetables",
+    price: 52,
+    category: "mains",
+    image: "https://images.unsplash.com/photo-1580959375944-0ac9e8e6d10b?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "7",
+    name: "Duck Confit",
+    description: "Classic French duck with crispy skin and orange glaze",
+    price: 48,
+    category: "mains",
+    image: "https://images.unsplash.com/photo-1612781908847-0f4250086f6e?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "8",
+    name: "Truffle Risotto",
+    description: "Creamy Arborio rice with black truffle and Parmigiano",
+    price: 42,
+    category: "mains",
+    image: "https://images.unsplash.com/photo-1476124369491-c7addf7a7aea?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "9",
+    name: "Rack of Lamb",
+    description: "Herb-crusted lamb with mint jus and root vegetables",
+    price: 58,
+    category: "mains",
+    image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=600&q=80",
+  },
+
+  // Desserts
+  {
+    id: "10",
+    name: "Crème Brûlée",
+    description: "Classic vanilla custard with caramelized sugar",
+    price: 14,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "11",
+    name: "Chocolate Soufflé",
+    description: "Dark chocolate soufflé with vanilla ice cream",
+    price: 16,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "12",
+    name: "Tarte Tatin",
+    description: "Caramelized apple tart with crème fraîche",
+    price: 15,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "13",
+    name: "Tiramisu",
+    description: "Italian classic with espresso and mascarpone",
+    price: 14,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80",
+  },
+
+  // Drinks
+  {
+    id: "14",
+    name: "Château Margaux 2015",
+    description: "Premier Grand Cru Classé Bordeaux",
+    price: 450,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "15",
+    name: "Dom Pérignon",
+    description: "Vintage champagne, 2010",
+    price: 380,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "16",
+    name: "Signature Cocktail",
+    description: "House specialty cocktail with premium spirits",
+    price: 18,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "17",
+    name: "Artisan Espresso",
+    description: "Single-origin espresso from Ethiopia",
+    price: 6,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80",
+  },
+];
