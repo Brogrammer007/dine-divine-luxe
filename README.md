@@ -20,6 +20,8 @@ If you want to work locally using your own IDE, you can clone this repo and push
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+**IMPORTANT: This project requires Node.js version 18 or higher.**
+
 Follow these steps:
 
 ```sh
@@ -29,12 +31,18 @@ git clone <YOUR_GIT_URL>
 # Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install/use the correct Node.js version (if using nvm)
+nvm install 18
+nvm use 18
+
+# Step 4: Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 5: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+
+The development server will start on http://localhost:8080 (or another port if 8080 is busy).
 
 **Edit a file directly in GitHub**
 
